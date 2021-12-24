@@ -30,3 +30,11 @@ char Player::get_c(){
 char Player::get_in_turn(){
 	return in_turn;
 }
+
+void Player::set_mess(string mess){
+	this->mess = mess;
+}
+
+string Player::get_mess(){
+	return mess;
+}
